@@ -1,7 +1,16 @@
 import os
 from dotenv import load_dotenv
-import asyncio
 from ollama import AsyncClient
+
+def logo():
+    print(r"""
+____________________________            .____    .____       _____   
+\______   \__    ___\_____  \           |    |   |    |     /     \  
+ |       _/ |    |   /   |   \   ______ |    |   |    |    /  \ /  \ 
+ |    |   \ |    |  /    |    \ /_____/ |    |___|    |___/    Y    \
+ |____|_  / |____|  \_______  /         |_______ |_______ \____|__  /
+        \/                  \/                  \/       \/       \/ """)
+    print("\n")
 
 def set_env():
     load_dotenv()
@@ -9,16 +18,22 @@ def set_env():
     port = os.getenv('PORT')
     return ipaddress, port
 
-def set_client():
+def set_client(ipaddress, port):
     client = (AsyncClient(
             host=f"http://{ipaddress}:{port}"))
     return client
+
+def get_message():
+    operator_message = input(
+        "[i] Please enter you message: ")
+    return operator_message
 
 async def chat(client, user_message):
     message = {
         'role':'user',
         'content':user_message,
     }
+    print('\n')
     async for part in await client.chat(
         model='qwen2.5:latest',
         messages=[message],
@@ -28,12 +43,3 @@ async def chat(client, user_message):
                 end='',
                 flush=True
             )
-
-def main():
-    global ipaddress, port
-    ipaddress, port = set_env()
-    client = set_client()
-    asyncio.run(chat(client, "Hello"))
-
-if __name__ == "__main__":
-    main()
