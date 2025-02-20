@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a67b8e-8fe9-496b-8d40-54bf44b6b323" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LocalLLM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LocalLLM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +68,14 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/jerrysolis/PycharmProjects/LocalLLM",
+    "last_opened_file_path": "/Users/jerrysolis/PycharmProjects/RAG-LocalLLM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.3268839",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -127,6 +125,8 @@
       <workItem from="1739988669575" duration="23000" />
       <workItem from="1739989042021" duration="136000" />
       <workItem from="1739989208236" duration="4537000" />
+      <workItem from="1740034006783" duration="716000" />
+      <workItem from="1740034731112" duration="2326000" />
     </task>
     <servers />
   </component>
