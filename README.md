@@ -19,10 +19,8 @@
 ---
 
 ## Motivation
- 
-- Using pre-made interfaces often results in output being censored or influenced by guardrails set by platforms like ChatGPT. 
 
-- This project aims to provide a local environment where you can continuously update the model and perform tasks specific to red team operations without such restrictions.
+- This project aims to provide a local environment where you can continuously update the model and perform tasks specific to red team operations without restrictions influenced by guardrails set by platforms.
 
 ---
 
